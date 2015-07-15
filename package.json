@@ -1,0 +1,39 @@
+{
+  "name": "lst",
+  "version": "1.0.0",
+  "description": "a pretty directory tree visualizer",
+  "author": "Gabriel Lebec <glebec@gmail.com> (https://github.com/glebec)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/glebec/lst.git"
+  },
+  "homepage": "https://github.com/glebec/lst",
+  "bugs": "https://github.com/glebec/lst/issues",
+  "preferGlobal": "true",
+  "bin": "bin/lst.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint bin/lst.js"
+  },
+  "keywords": [
+    "tree",
+    "directory",
+    "directories",
+    "subdirectory",
+    "subdirectories",
+    "recursive",
+    "visualization",
+    "visualize",
+    "visualizer",
+    "cli"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.0",
+    "commander": "^2.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^0.24.1",
+    "mocha": "^2.2.5"
+  }
+}
