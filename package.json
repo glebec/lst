@@ -33,7 +33,7 @@
     "commander": "^2.8.1"
   },
   "devDependencies": {
-    "eslint": "^0.24.1",
-    "mocha": "~2.2.5"
+    "eslint": "^3.14.0",
+    "mocha": "~3.2.0"
   }
 }
